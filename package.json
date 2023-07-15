@@ -1,5 +1,6 @@
 {
   "name": "lightningcss-plugin-px-to-viewport",
+  "version": "0.0.0",
   "type": "module",
   "packageManager": "pnpm@8.6.0",
   "description": "A lightningcss plugin that converts px to viewport width",
@@ -13,7 +14,8 @@
   "scripts": {
     "dev": "tsup --watch",
     "build": "tsup",
-    "test": "vitest"
+    "test": "vitest",
+    "release": "bumpp -r && pnpm publish"
   },
   "dependencies": {
     "lightningcss": "^1.21.5"
@@ -21,6 +23,7 @@
   "devDependencies": {
     "tsup": "^7.1.0",
     "vitest": "^0.33.0",
-    "eslint-plugin-all-in-one": "^0.1.1"
+    "eslint-plugin-all-in-one": "^0.1.1",
+    "bumpp": "^9.1.1"
   }
 }
