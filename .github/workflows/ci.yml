@@ -22,4 +22,5 @@ jobs:
           node-version: 16
       - run: corepack enable
       - run: pnpm i
+      - run: pnpm typecheck
       - run: pnpm test

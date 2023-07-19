@@ -23,7 +23,8 @@
     "dev": "tsup --watch",
     "build": "tsup",
     "test": "vitest",
-    "release": "bumpp -r"
+    "release": "bumpp -r",
+    "typecheck": "tsc --noEmit"
   },
   "files": [
     "dist"
@@ -35,6 +36,7 @@
     "tsup": "^7.1.0",
     "vitest": "^0.33.0",
     "eslint-plugin-all-in-one": "^0.1.1",
-    "bumpp": "^9.1.1"
+    "bumpp": "^9.1.1",
+    "typescript": "^5.1.6"
   }
 }
