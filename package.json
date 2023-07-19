@@ -1,6 +1,6 @@
 {
   "name": "lightningcss-plugin-px-to-viewport",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "type": "module",
   "packageManager": "pnpm@8.6.0",
   "description": "A lightningcss plugin that converts px to viewport width",
