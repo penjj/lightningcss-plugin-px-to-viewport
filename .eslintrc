@@ -1,5 +1,0 @@
-{
-  "root": true,
-  "extends": ["plugin:all-in-one/typescript", "plugin:all-in-one/prettier"],
-  "ignorePatterns": ["node_modules", "dist"]
-}

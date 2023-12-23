@@ -1,3 +1,3 @@
-import { createPxToVwVisitor } from "./visitor";
+import { createPxToVwVisitor } from './visitor'
 
-export { createPxToVwVisitor as default };
+export { createPxToVwVisitor as default }

@@ -1,0 +1,23 @@
+{
+  "name": "example",
+  "type": "module",
+  "version": "0.0.0",
+  "private": true,
+  "publishConfig": {
+    "access": "restricted"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build"
+  },
+  "dependencies": {
+    "vue": "^3.3.13"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.5.2",
+    "lightningcss": "^1.22.1",
+    "lightningcss-plugin-px-to-viewport": "workspace:*",
+    "vite": "^5.0.10",
+    "vite-plugin-inspect": "^0.8.1"
+  }
+}
