@@ -13,7 +13,7 @@ export default defineConfig({
   css: {
     transform: "lightningcss",
     lightningcss: {
-      visitors: composeVisitors([
+      visitor: composeVisitors([
         createPxToVwVisitor({
           designWidth: 320,
           minPixelValue: 1,
