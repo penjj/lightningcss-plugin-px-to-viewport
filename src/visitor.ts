@@ -49,7 +49,6 @@ export function createPxToVwVisitor(userOptions: Partial<Options> = {}) {
       }
     },
     Length(length) {
-      console.log(length)
       if (length.unit === 'px' && !skipCurrentSelector) {
         if (length.value > options.minPixelValue) {
           return {

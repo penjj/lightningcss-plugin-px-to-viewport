@@ -16,5 +16,6 @@
       "ESNext",
     ],
     "skipLibCheck": true
-  }
+  },
+  "include": ["src/**/*.ts"]
 }
